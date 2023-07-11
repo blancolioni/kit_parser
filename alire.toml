@@ -8,7 +8,7 @@ maintainers = ["Fraser Wilson <fraser@thewhitelion.eu>"]
 maintainers-logins = ["blancolioni"]
 
 tags = ["utility", "database", "compiler"]
-website = "https://github.com/blancolioni/kit_schema"
+website = "https://github.com/blancolioni/kit_parser"
 
 [build-switches]
 "*".Ada_Version="Ada2022"
