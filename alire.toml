@@ -1,0 +1,23 @@
+name = "kit_parser"
+description = "Parser for kit database specification files"
+version = "0.1.0-dev"
+licenses= "GPL-3.0-or-later"
+
+authors = ["Fraser Wilson"]
+maintainers = ["Fraser Wilson <fraser@thewhitelion.eu>"]
+maintainers-logins = ["blancolioni"]
+
+tags = ["utility", "database", "compiler"]
+website = "https://github.com/blancolioni/kit_schema"
+
+[build-switches]
+"*".Ada_Version="Ada2022"
+
+[[depends-on]]
+wl_lib = "~0.1.0-dev"
+[[depends-on]]
+kit_base = "~0.1.0-dev"
+[[depends-on]]
+kit_schema = "~0.1.0-dev"
+[[depends-on]]
+gcs = "~0.1.0-dev"
